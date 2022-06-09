@@ -6,7 +6,7 @@ function Arts() {
 
     const [count, setCount] = useState(0);
 
-    const text = 
+   fatik const text = 
     [
         [
             "Bitcoverse allows content creators to design and monetize their work through Bitcoverse social marketplace",
