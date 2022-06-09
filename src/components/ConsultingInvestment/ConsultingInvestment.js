@@ -5,8 +5,8 @@ import OfficeImg from '../../assets/office.png'
 function ConsultingInvestment() {
   return (
     <div>
-      <div className="pt-16 pb-16 mb-8 bg-red- text-center text-blue-900 bg-red-100 text-6xl font-bold">
-        Consulting <span className="text-amber-300">And </span> Investment
+      <div className="pt-16 pb-16 mb-8 bg-red- text-center text-[#143d59] bg-red-100 text-6xl font-bold">
+        Consulting <span className="text-[#efb21a]">And </span> Investment
       </div>
       <div>
         <InvestmentDetails />
@@ -89,7 +89,7 @@ function InvestmentDetails() {
           <div className={`${value[3]}`}>
             {value[4].map((value, index) => (
               <div
-                className={`border-b-[1px] border-b-gray-500 p-3 ${heights[index]}`}
+                className={`p-3 ${heights[index]}`} style={{borderBottom:"10px !important",borderBottomColor:"white" }}
               >
                 {value}{" "}
               </div>

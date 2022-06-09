@@ -8,10 +8,10 @@ function SignUp() {
  
   return (
     <div>
-      <div className="pt-16 pb-16 bg-red- text-center text-blue-900 bg-red-100 text-6xl font-bold">
-        <span className="text-amber-300">Sign</span> Up
+      <div className="pt-16 pb-16 bg-red- text-center text-[#143d59] text-6xl font-bold">
+        <span className="text-[#efb21a]">Sign</span> Up
       </div>
-      <h1 className="pt-16 pb-16 bg-red- text-center text-blue-900 text-4xl font-bold">
+      <h1 className="pt-16 pb-16 bg-red- text-center text-[#143d59] text-4xl font-bold">
         Sign Up & Start Learning
       </h1>
 
@@ -97,7 +97,7 @@ function Input({ leftSvg, rightSvg, type }) {
   return (
   
     <div className='mx-auto rounded-3xl p-1 max-w-md mt-5 border-2 flex gap-5 border-slate-900'>
-    <div className='h-10 w-10 rounded-full bg-amber-300 flex items-center justify-center'>
+    <div className='h-10 w-10 rounded-full bg-[#efb21a] flex items-center justify-center'>
       {leftSvg}
     </div>
     <input type={type} className="flex-grow outline-none border-"/>

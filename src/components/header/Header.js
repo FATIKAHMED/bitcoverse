@@ -6,7 +6,7 @@ import Icon4 from "../../assets/icon4.png";
 import Icon5 from "../../assets/icon5.png";
 import HeaderLogo from "../../assets/headerlogo.png";
 
-function Header() {
+function Header({setToggle, toggle}) {
     return (
         <div className="header">
             <div className="top">
@@ -27,7 +27,9 @@ function Header() {
             <div className="bottom">
                 <div className="container">
                     <img src={HeaderLogo} alt="logo"/>
-                    <div className="toggler">
+                    <div onClick={()=> {setToggle(!toggle) 
+                    console.log({toggle})
+                    }} className="toggler">
                         <i class="fas fa-bars"></i>
                     </div>
                 </div>

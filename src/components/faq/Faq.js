@@ -25,7 +25,7 @@ function Box({heading, text, count}) {
     return (
         <div class="tabs">
             <div class="tab">
-                <input type="checkbox"  id={`chck${count}`} />
+                <input type="checkbox input-class"  id={`chck${count}`} />
                 <label class="tab-label" for={`chck${count}`} >
                     <div className="centeral-touch">
                         <h5>{heading}</h5>

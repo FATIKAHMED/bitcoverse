@@ -1,7 +1,7 @@
 import "./choseUs.css";
-import img3 from "../../assets/1.gif";
-import img2 from "../../assets/2.gif";
-import img1 from "../../assets/3.gif";
+import img3 from "../../assets/smart.png";
+import img2 from "../../assets/smart2.png";
+import img1 from "../../assets/smart3.png";
 
 function ChoseUs() {
     return (

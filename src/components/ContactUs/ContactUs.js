@@ -3,18 +3,18 @@ import MapImg from "../../assets/gmap.png";
 function ContactUs() {
   return (
     <div>
-      <div className="pt-16 pb-16 bg-red- text-center text-blue-900 bg-red-100 text-6xl font-bold">
-        <span className="text-amber-300">Contact</span> Us
+      <div className="pt-16 pb-16 bg-red- text-center text-[#143d59] bg-red-100 text-6xl font-bold">
+        <span className="text-[#efb21a]">Contact</span> Us
       </div>
       <div
         className="max-w-xl mx-auto mt-20 mb-20 p-10"
         style={{ boxShadow: "0px 0px 10px 5px lightgray" }}
       >
-        <h1 className="text-amber-500 font-bold mb-">Get In Touch</h1>
+        <h1 className="text-[#efb21a] font-bold mb-8 text-xl">Get In Touch</h1>
         <div className=" lg:w-[150%] flex lg:flex-nowrap flex-wrap justify-center items-center">
           <div className="flex-grow lg:mt-0 mt-5 ">
-            <h1 className="text-lg font-bold">Contact Us</h1>
-            <p>
+            <h1 className="text-3xl font-bold text-[#143d59] mb-6 ">Contact Us</h1>
+            <p className="mb-6">
               Lorem ispsum is my dummy text Lorem ispsum is my dummy text Lorem
               ispsum is my dummy text{" "}
             </p>
