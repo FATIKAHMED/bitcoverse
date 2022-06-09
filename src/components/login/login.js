@@ -4,7 +4,7 @@ import Img from "../../assets/icon1.png";
 function Login() {
   return (
     <div>
-        <div className="pt-16 pb-16 bg-red- text-center text-blue-900 bg-red-100 text-6xl font-bold">
+        <div className="pt-16 pb-16 bg-red- text-center text-blue-900  text-6xl font-bold">
             <span className='text-amber-300'>Login</span> Page
         </div>
         <div className='text-gray-900 text-2xl font-bold text-center mt-7 mb-7'>Login to your BITCOVERSE Accounts</div>

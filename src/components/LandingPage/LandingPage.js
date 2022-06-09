@@ -7,7 +7,7 @@ import Work from '../../components/work/Work'
 import Token from '../../components/token/Token'
 import Arts from '../../components/arts/Arts'
 import Slider from '../slider/Slider'
-//import Faq from '../../components/faq/Faq';
+import Faq from '../../components/faq/Faq';
 
 function LandingPage() {
   return (
@@ -20,7 +20,7 @@ function LandingPage() {
         <Work/>
         <Token/>
         <Arts/>
-        {/* <Faq /> */}
+        <Faq />
     </div>
   )
 }

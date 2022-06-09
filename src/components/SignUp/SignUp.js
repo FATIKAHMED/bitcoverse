@@ -8,7 +8,7 @@ function SignUp() {
  
   return (
     <div>
-      <div className="pt-16 pb-16 bg-red- text-center text-[#143d59] text-6xl font-bold">
+      <div className="pt-10 bg-red- text-center text-[#143d59] text-6xl font-bold">
         <span className="text-[#efb21a]">Sign</span> Up
       </div>
       <h1 className="pt-16 pb-16 bg-red- text-center text-[#143d59] text-4xl font-bold">

@@ -5,16 +5,16 @@ import ReactStars from "react-rating-stars-component";
 function Education() {
   return (
     <div>
-      <div className="pt-16 pb-16 mb-8 bg-red- text-center text-blue-900 bg-red-100 text-6xl font-bold">
-        Learn <span className="text-amber-300">Login</span> Page
+      <div className="pt-16 pb-16 mb-8 bg-red- text-center text-blue-900 text-6xl font-bold">
+        Learn <span className="text-amber-300">And</span> Earn
       </div>
       <div className="container  mx-auto flex gap-10 flex-wrap items-center justify-center">
         <Card />
         <Card />
         <Card />
         <Card />
-                <Card />
-                <Card />
+        <Card />
+        <Card />
 
 
       </div>
