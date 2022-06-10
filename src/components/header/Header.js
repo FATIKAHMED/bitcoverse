@@ -29,8 +29,11 @@ function Header({setToggle, toggle}) {
                     <img src={HeaderLogo} alt="logo"/>
                     <div onClick={()=> {setToggle(!toggle) 
                     console.log({toggle})
-                    }} className="toggler">
-                        <i class="fas fa-bars"></i>
+                    }} className="toggler z-20 cursor-pointer"> 
+                    {
+                        !toggle?<i class="fas fa-bars"></i>:<i class="fas fa-times"></i>
+                    }
+                        
                     </div>
                 </div>
             </div>

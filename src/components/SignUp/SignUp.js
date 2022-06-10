@@ -11,7 +11,7 @@ function SignUp() {
       <div className="pt-10 bg-red- text-center text-[#143d59] text-6xl font-bold">
         <span className="text-[#efb21a]">Sign</span> Up
       </div>
-      <h1 className="pt-16 pb-16 bg-red- text-center text-[#143d59] text-4xl font-bold">
+      <h1 className="pt-8 pb-8 bg-red- text-center text-[#143d59] text-4xl font-bold">
         Sign Up & Start Learning
       </h1>
 
@@ -70,10 +70,12 @@ function SignUp() {
         />
       </div>
       <div className=" flex items-center justify-center">
+    <div className="mt-3 mb-3">
     <ReCAPTCHA
         sitekey="YOUR-SITE-KEY"
         onChange={onChange}
       />
+    </div>
     </div>
     <div className=" flex items-center justify-center p-2">
       <input type="checkbox"/> <p className="text-xs pl-2">Send me special offers, personalized recommendations and learning tips</p>
@@ -102,7 +104,7 @@ function Input({ leftSvg, rightSvg, type }) {
     </div>
     <input type={type} className="flex-grow outline-none border-"/>
     <div className='flex items-center justify-center'>
-      {rightSvg}
+      {rightSvg && <span className="mr-3">{rightSvg}</span>}
     </div>
     
   </div>

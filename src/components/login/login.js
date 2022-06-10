@@ -4,7 +4,7 @@ import Img from "../../assets/icon1.png";
 function Login() {
   return (
     <div>
-        <div className="pt-16 pb-16 bg-red- text-center text-blue-900  text-6xl font-bold">
+        <div className="pt-16  bg-red- text-center text-blue-900  text-6xl font-bold">
             <span className='text-amber-300'>Login</span> Page
         </div>
         <div className='text-gray-900 text-2xl font-bold text-center mt-7 mb-7'>Login to your BITCOVERSE Accounts</div>
@@ -40,10 +40,10 @@ function Login() {
         }
         />
         <div className='max-w-md mx-auto mt-5'>
-          <button className="mx-auto rounded-3xl w-full bg-gray-900 font-bold text-white text-lg">Log In</button>
+          <button className="mx-auto rounded-3xl pt-2 pb-2 w-full bg-gray-900 font-bold text-white text-lg">Log In</button>
         </div>
         <div className='max-w-md mx-auto mt-5 mb-10'>
-          <div className='text-gray-900 text-sm font-bold flex sm:flex-row flex-col items-center justify-between'>
+          <div className='text-gray-900 text-xs font-bold flex sm:flex-row flex-col pl-5 pr-5 items-center justify-between'>
             <span>
               Forgot Password?
             </span>
@@ -65,7 +65,7 @@ function Input({leftSvg, rightSvg, type}){
       </div>
       <input type="text"  className="flex-grow w-16  outline-none border-none"/>
       <div className='flex items-center justify-center'>
-        {rightSvg}
+      {rightSvg && <span className="mr-3">{rightSvg}</span>}
       </div>
     </div>
   )

@@ -37,9 +37,10 @@ function App() {
 
   return (
     <>
+    <div className="">
           <div className="hero">
             <Header toggle={toggle} setToggle={setToggle} />
-            {toggle ? <NavBar /> : ""}
+            <NavBar toggle={toggle} />
           </div>
         
       <Browser>
@@ -61,23 +62,23 @@ function App() {
 
       <Prices />
         <Footer />
-  
+        </div>
     </>
   );
 }
-function NavBar() {
+function NavBar({toggle}) {
   
   return (
-    <div style={{boxShadow : " 0 0 5px 5px lightgray", backgroundColor: "lightgray"}} className="flex items-center font-semibold text-sm  p-10 gap-3 mt-5 mb-5  justify-center flex-col">
-      <a className="text-zinc-900 hover:text-amber-300 " href="/">
+    <div style={{boxShadow : " 0 0 5px 5px #133d59", backgroundColor: "#133d59", transition:"margin-right 0.5s ease"}} className={`flex items-center absolute z-10 right-0 bottom-0  items-baseline top-0 font-semibold text-sm  p-10 gap-3  transition:m justify-center flex-col ${toggle === true? "ease-linear" : " hidden"} `}>
+      <a className="text-white hover:text-amber-300 text-3xl" href="/">
         Home <br />
       </a>
-      <a className="text-zinc-900 hover:text-amber-300" href="/signup">Sign Up</a>
-      <a className="text-zinc-900 hover:text-amber-300" href="/login">Login</a>
-      <a className="text-zinc-900 hover:text-amber-300" href="/consultingandinvestment">Consulting And Investment</a>
-      <a className="text-zinc-900 hover:text-amber-300" href="/companyoverview">Comapny Overview</a>
-      <a className="text-zinc-900 hover:text-amber-300" href="/educationcourse">Education Course</a>
-      <a className="text-zinc-900 hover:text-amber-300" href="/foundingdetails">Founding Details</a>
+      <a className="text-white hover:text-[#f2b31b] text-3xl" href="/signup">Sign Up</a>
+      <a className="text-white hover:text-[#f2b31b] text-3xl" href="/login">Login</a>
+      <a className="text-white hover:text-[#f2b31b] text-3xl" href="/consultingandinvestment">Consulting And Investment</a>
+      <a className="text-white hover:text-[#f2b31b] text-3xl" href="/companyoverview">Comapny Overview</a>
+      <a className="text-white hover:text-[#f2b31b] text-3xl" href="/educationcourse">Education Course</a>
+      <a className="text-white hover:text-[#f2b31b] text-3xl" href="/foundingdetails">Founding Details</a>
     </div>
   );
 }

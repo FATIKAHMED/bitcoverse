@@ -212,12 +212,13 @@ const cardData = [
     "text-[#0d283b]",
     "bg-[#0d283b]",
     [
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
+      "BITCOVERSE Consulting",
+      "BITCOVERSE Gold",
+      "BITCOVERSE Pay as you Go",
+      "BITCOVERSE VIP All Inclusive",
+
     ],
+    "text-white"
   ],
   [
     "Terms",
@@ -225,12 +226,13 @@ const cardData = [
     "text-[#efb21c]",
     "bg-[#efb21c]",
     [
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
+      "Have a tailored conversation full of insight answering any questions that you might have with an Expert Consultant",
+      "Consulting and 24 trade recommendations for one calendar year. \n \n Consultation consists of 1 hour per month for one calendar year",
+      "Trade recommendations with no commitment.",
+      "Consulting and 24 trade recommendations for one calendar year. Consultation consists of 1 hour per month for one calendar year.33% Dividend Bonus pool from the overall company net profits given to each Client that will be split equally amongst all VIP Member's.GUARANTEED Ownership of Coins from the Company's ICO or TBD method of distribution of Company Coin. ** Full legal disclaimer and liability explaining the risk of investing and BITCOVERSE is not responsible for any monies lost.**",
+      
     ],
+    "text-black"
   ],
   [
     "Price",
@@ -238,12 +240,13 @@ const cardData = [
     "text-[#0d283b]",
     "bg-[#0d283b]",
     [
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
+      "$35USD per Hour OR $28USD per Hour per Person with a Group of 3 or more People. $25USD per Half Hour OR $22USD per Half Hour per Person with a Group of 3 or more People.",
+      "$1000USD paid in full.",
+      "$56USD per trade recommendation.",
+      "Annual Enrollment Fee of $1800USD Per Person.",
+     
     ],
+    "text-white"
   ],
   [
     "Communication Method",
@@ -251,32 +254,34 @@ const cardData = [
     "text-[#efb21c]",
     "bg-[#efb21c]",
     [
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
-      "lorem ipsum dummy text",
+      "In Person, Phone, Skype,Telegram, Google Meet, ZOOM, Viber, Whatsapp.",
+      "In Person, Phone, Skype,Telegram, Google Meet, ZOOM, Viber, Whatsapp.",
+      "In Person, Phone, Skype,Telegram, Google Meet, ZOOM, Viber, Whatsapp.",
+      "In Person, Phone, Skype,Telegram, Google Meet, ZOOM, Viber, Whatsapp.",
+  
     ],
+    "text-black"
+    
   ],
 ];
-const heights = ["h-20", "h-28", "h-48", "h-20", "h-56"];
+const heights = ["h-[9rem]", "h-[8rem]", "h-[5rem]", "h-[24rem]"];
 function InvestmentDetails() {
   return (
     <div className="container mx-auto flex flex-wrap justify-evenly gap-3 p-4 mt-2 mb-2">
       {cardData.map((value, index) => (
         <div key={index} className=" w-60 rounded-2xl overflow-hidden">
           <div
-            className={`text-center p-2 font-semibold text-base ${value[2]} ${value[1]}`}
+            className={`text-center  p-2 font-semibold text-base ${value[2]} ${value[1]}`}
           >
             {value[0]}
           </div>
           <div className={`${value[3]}`}>
-            {value[4].map((value, index) => (
+            {value[4].map((value1, index) => (
               <div
-                className={`p-3 ${heights[index]}`}
-                style={{ borderBottom: "1px solid rgba(128,128,128,0.3)" }}
+                className={`p-3 ${heights[index]} ${value[5]} text-sm`}
+                style={{ borderBottom: `1px solid rgba(128,128,128,0.3)` }}
               >
-                {value}{" "}
+                {value1}{" "}
               </div>
             ))}
           </div>
