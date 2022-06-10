@@ -66,17 +66,18 @@ function App() {
   );
 }
 function NavBar() {
+  
   return (
-    <div className="flex items-center bg-gray-300 justify-center flex-col ">
-      <a href="/">
+    <div style={{boxShadow : " 0 0 5px 5px lightgray", backgroundColor: "lightgray"}} className="flex items-center font-semibold text-sm  p-10 gap-3 mt-5 mb-5  justify-center flex-col">
+      <a className="text-zinc-900 hover:text-amber-300 " href="/">
         Home <br />
       </a>
-      <a href="/signup">Sign Up</a>
-      <a href="/login">Login</a>
-      <a href="/consultingandinvestment">Consulting And Investment</a>
-      <a href="/companyoverview">Comapny Overview</a>
-      <a href="/educationcourse">Education Course</a>
-      <a href="/foundingdetails">Founding Details</a>
+      <a className="text-zinc-900 hover:text-amber-300" href="/signup">Sign Up</a>
+      <a className="text-zinc-900 hover:text-amber-300" href="/login">Login</a>
+      <a className="text-zinc-900 hover:text-amber-300" href="/consultingandinvestment">Consulting And Investment</a>
+      <a className="text-zinc-900 hover:text-amber-300" href="/companyoverview">Comapny Overview</a>
+      <a className="text-zinc-900 hover:text-amber-300" href="/educationcourse">Education Course</a>
+      <a className="text-zinc-900 hover:text-amber-300" href="/foundingdetails">Founding Details</a>
     </div>
   );
 }

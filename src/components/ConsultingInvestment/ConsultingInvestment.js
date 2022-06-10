@@ -322,8 +322,8 @@ function StrategySection() {
       className="flex justify-end p-[5%]"
       style={{ backgroundImage: `url(${OfficeImg})` }}
     >
-      <div className="lg:w-[50%] bg-white p-[5%]">
-        <h1 className="text-[#143d59] font-bold text-2xl pb-5">OUR STRATEGY</h1>
+      <div className="lg:w-[50%] bg-white p-[5%] rounded-xl">
+        <h1 className="text-[#143d59] font-bold  text-2xl pb-5">OUR STRATEGY</h1>
         <h3 className=" pb-4 text-[#efb21a] font-bold">
           A PIONEERING, UNIQUE, UN-CORRELATED ASSET MANAGEMENT PROGRAM
         </h3>
