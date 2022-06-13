@@ -182,11 +182,30 @@
 
 
 
-  .input {
+  /* .input {
     position: absolute;
     opacity: 0;
     z-index: -1;
+  } */
+  
+  input#chck1.input{
+    display: none;
   }
+
+  input#chck2.input{
+    display: none;
+  }
+  input#chck3.input{
+    display: none;
+  }  input#chck4.input{
+    display: none;
+  }  input#chck5.input{
+    display: none;
+  }
+  input#chck6.input{
+    display: none;
+  }
+  
   
   .row {
     display: flex;

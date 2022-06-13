@@ -13,6 +13,19 @@
     box-sizing: border-box;
 }
 
+.list {
+  list-style-type: none;
+}
+
+.list::before {
+  content: "\2022";
+  color: #143d59;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block; 
+  width: 1em;
+}
+
 .text-small {
     font-size: 12px !important;
     font-family: 'Poppins', sans-serif;
@@ -23,6 +36,12 @@
 .container {
     width: 1050px !important;
 }
+
+.scroll-css {
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    overflow-y: overlay;
+  }
 
 @media screen and (max-width: 1080px) {
     .container {
@@ -36,9 +55,4 @@
       width: 100vw !important;
       padding: 0 10px 0 10px;
     }
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
 }

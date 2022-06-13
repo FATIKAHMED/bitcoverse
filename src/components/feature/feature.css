@@ -145,7 +145,15 @@ transform: translateX(-150px);
     }
     .feature .bottom {
         min-width: 40% !important;
-    }   
+    }
+    
+    .owl-nav button:first-child {
+        transform: translateX(-40px);
+        }
+        
+        .owl-nav button:last-child {
+            transform: translateX(40px);
+        }
 }
 
 @media screen and (max-width: 940px) {

@@ -1,7 +1,11 @@
 import React from 'react'
 
 function Overview() {
+    let skip=<br/>;
 
+    function breaklike (){
+        return "\n";
+    }
     const data = [
         {
             heading: "BITCOVERSE Overview",
@@ -30,7 +34,24 @@ function Overview() {
             paragraphs : [
                 {
                     subHeading: "Thomas Christopher / CEO",
-                    text: "Mr. Thomas Christopher is the CEO and Founder of BITCOVERSE, A Community For Everyone. Tom, is a former Actor / Model and Athlete, from New York City, who turned private Businessman at 24 years old. Key investment industries include: precious metals and gemstones (active mining partner), sports wagering, real estate (virtual as well), and blockchain technology, which is currently a key focus of Tom's investment plans. He is known to be a forward thinker who believes in innovation and usually sees things 3-10 years into the future."
+                    text: "Mr. Thomas Christopher is the CEO and Founder of BITCOVERSE, A Community For Everyone. Tom, is a former Actor / Model and Athlete, from New York City, who turned private Businessman at 24 years old. Key investment industries include: <br/> precious metals and gemstones (active mining partner), sports wagering, real estate (virtual as well), and blockchain technology, which is currently a key focus of Tom's investment plans. He is known to be a forward thinker who believes in innovation and usually sees things 3-10 years into the future ."
+                }
+            ]
+        },
+        {
+            heading: "Advantages",
+            paragraphs : [
+                {
+                    subHeading: "Operational Strategies",
+                    text: "On top of solid fundamentals, pure innovation, and a forward thinking approach lies a powerful core of BITCOVERSE, which is its' R&D team. A superior support team contributes to an around the clock result of world class constancy and service for all of its' global community. The vision of BITCOVERSE is to collaborate with other astute members both inside and outside of our global community to create a prosperous and endless future through long-term and large-scale online/offline promotion leading to mass adoption."
+                },
+                {
+                    subHeading: "Competent Customer Services",
+                    text: "Our global community interaction resolves any requests made in order to ensure a smooth and operational system. BITCOVERSE offers different options of customer service including webpage, email, and a Retail location in Antalya, Turkey."
+                },
+                {
+                    subHeading: "Income & Expense",
+                    text: "BITCOVERSE income streams include: advertisement space, educational courses, NFTS, publications, and services offered. BITCOVERSE expenses are mainly for: blockchain technology R&D, marketing and promotion, and operations."
                 }
             ]
         },
@@ -54,22 +75,34 @@ function Overview() {
     ]
 
   return (
-    <div className='text-center mb-20'>
-        <div className="pt-16 pb-16 text-center text-[#143d59] mb-20 text-6xl font-bold">
-            <span className='text-[#f2b31a]'>Company</span> Overview
+    <div className='text-center container mx-auto mb-20'>
+        <div className="pt-16 pb-16 text-center text-[#133b59] mb-20 text-6xl font-bold">
+            <span className='text-[#f2b31b]'>Company</span> Overview
         </div>
         <div className='mx-auto max-w-3xl'>
             {data.map((value, index) => 
                 <div key={index}>
-                    <h1 className='text-[#f2b31a] font-bold text-3xl mb-5'>{value.heading}</h1>
+                    <h1 className='text-[#f2b31b] font-bold text-3xl mb-5'>{value.heading}</h1>
                     {value.paragraphs.map((para, paraInd) => 
                         <div key={paraInd}>
-                            <h1 className='text-gray-900 font-bold text-xl mb-5'>{para.subHeading}</h1>
-                            <p className='text-zinc-500 text-xs font-semibold mb-5'>{para.text}</p>
+                            <h1 className='text-[#133d59] font-bold text-xl mb-5'>{para.subHeading}</h1>
+                            <p style={{lineHeight:"25px"}} className='text-[#7e7e7e] text-xs font-[400] mb-5'>{para.text}</p>
+                            {
+                                value.heading==="Founder"?<p style={{lineHeight:"25px"}} className='text-[#7e7e7e] text-xs font-[400] mb-5'> One of his latest ventures is with the brand, Toppem Sports, a subsidiary of its' parent company, Toppem. Toppem Sports
+                                integrates the worlds of Fantasy Sports and blockchain technology via NFTS, tokenization, and gamification. Feel free to review
+                                the company.<br/> <br/> For more information about Tom, please review his Bio. </p>:""
+                            }
                         </div>
                     )}
                 </div>
             )}
+            <div className='flex flex-wrap items-center justify-around sm:text-left text-center gap-10 text-[#7e7e7e] text-xs font-[400]'>
+                <p style={{lineHeight:"1.5"}}>Premiere professional team <br/> Vault - level digital asset security <br/> Superior customer service</p>
+                <p style={{lineHeight:"1.5"}}>Potent API interface <br/>  Global consultant team of digital asset gurus <br/>  Premiere educational tools</p>
+
+                <p style={{lineHeight:"1.5"}}>Blockchain digital assets</p>
+
+            </div>
         </div>
     </div>
   )

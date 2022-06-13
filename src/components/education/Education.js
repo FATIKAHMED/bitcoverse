@@ -5,8 +5,8 @@ import ReactStars from "react-rating-stars-component";
 function Education() {
   return (
     <div>
-      <div className="pt-16 pb-16 mb-8 bg-red- text-center text-blue-900 text-6xl font-bold">
-        Learn <span className="text-amber-300">And</span> Earn
+      <div className="pt-16 pb-16 mb-8 bg-red- text-center text-[#133D59] text-6xl font-bold">
+        Learn <span className="text-[#f2b31b]">And</span> Earn
       </div>
       <div className="container  mx-auto flex gap-10 flex-wrap items-center justify-center">
         <Card />
@@ -32,21 +32,21 @@ function Card() {
     <div className="w-64 overflow-hidden rounded-xl drop-shadow-2xl mb-4">
       <img src={image} alt="" />
       <div>
-        <h1 className="text-zinc-700 text-lg font-bold mt-4 mb-4">
+        <h1 className="text-black text-[25px] font-bold mt-4 mb-4">
           lorem upsum is the dumm?
         </h1>
-        <p className="text-xs font-medium text-zinc-500">
+        <p className="text-[14px] text-[#7e7e7e] font-[400]">
           Lorme ipsum is the dummy text
         </p>
         <div className="mt-2 flex items-center justify-between">
           <span className="font-bold text-xs text-zinc-900">4.3 </span>
           <span className="font-bold text-xs text-zinc-500">(2,282) </span>
           <span className="font-bold text-xs text-zinc-900">
-            <ReactStars {...firstExample} />
+            <ReactStars {...firstExample}  color='#fffff'/>
           </span>
         </div>
         <div className="mt-2 mb-2 flex items-center justify-between">
-          <span className="bg-amber-300 p-1 rounded-md text-xs text-zinc-700 font-bold">
+          <span className="bg-[#f2b31b] p-1 rounded-md text-xs text-zinc-700 font-bold">
             $120
           </span>
           <span className="bg-gray-800 p-1 rounded-md px-3">
