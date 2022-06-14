@@ -22,8 +22,9 @@
 .faq .container h1 {
     color: #133d59;
     font-family: 'Poppins', sans-serif;
-    font-weight: 900;
     line-height: 3;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .faq .container p {

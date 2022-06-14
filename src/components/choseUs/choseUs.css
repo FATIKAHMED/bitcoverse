@@ -14,7 +14,9 @@
 }
 
 .chose-us .container .top h1 {
+    font-size: 2rem;
     color: #f2b31b;
+    font-weight: bold;
 }
 
 .chose-us .container .top p {

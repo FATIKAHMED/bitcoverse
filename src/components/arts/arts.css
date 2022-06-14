@@ -18,8 +18,9 @@
 .arts .container h1 {
     color: #133d59;
     font-family: 'Poppins', sans-serif;
-    font-weight: 900;
     line-height: 3;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .arts .container p {
@@ -44,7 +45,7 @@
     flex-direction: row;
     align-items: flex-start;
     margin-top: 15px;
-    gap:15px;
+    gap:20px;
 }
 
 .arts .second .container .nav {
@@ -65,7 +66,7 @@
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #7e7e7e;
+    color: #133d59;
 }
 
 .arts .second .container .nav .navitem .design .desing-top { 

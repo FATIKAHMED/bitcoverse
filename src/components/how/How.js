@@ -34,9 +34,9 @@ function How() {
 
     return (
         <div className="how">
-            <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+            
                 <h1 className="main-heading">HOW WE WORK</h1>
-            </AnimationOnScroll>
+            
             <div className="container">
                 <Slider {...settings}  >
                     <Item count="01" sCount={1} state={stateCount} setState={setStateCount}  />
@@ -56,7 +56,7 @@ function How() {
 function Item({count, sCount, state, setState}) {
     return (
         <div className="item item-container">
-            <p className="heading">lorem ipsum dolor site</p>
+            <p className="heading text-[#133d59]">lorem ipsum dolor site</p>
             <p className="text-small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a galley of type and scrambled it to make a type specimen book.</p>
             <div className={`text-image ${(sCount === state) ? "text-image-hover-active": "" }`} onMouseOver={() => {setState(sCount)}} >
                 <h1>{count}</h1>

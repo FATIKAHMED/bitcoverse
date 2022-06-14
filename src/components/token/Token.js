@@ -5,7 +5,7 @@ function Token() {
     return (
         <div className="token">
             <div className="container">
-                <h1>Token Economy</h1>
+                <h1>TOKEN ECONOMICS</h1>
                 <div className="bottom">
                     <img src={cart} alt="missing"/>
                     <div className="discription">
