@@ -23,7 +23,7 @@ function ChoseUs() {
 
 function Reason({link, text}) {
     return (
-        <div className="reason">
+        <div className="reason mb-[30px]">
             <img src={link} alt="reson"/>
             <h3 className="font-[500]">{text}</h3>
             <p className="text-small text-[#7e7e7e]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type & scrambled it to make a type specimen book.</p>

@@ -58,7 +58,7 @@ function NavBar({ toggle, setToggle }) {
       onClick={()=>{
         setToggle(false)
       }}
-      className="flex items-center relative font-semibold text-sm  p-10 gap-3 h-full justify-center flex-col"  
+      className="flex items-left relative font-semibold text-sm p-10 pt-[90px] gap-3 h-full flex-col"  
     >
       <div className={`absolute top-10 left-10 toggler cursor-pointer }`}  onClick={()=> {setToggle(!toggle) }}> 
                     {
@@ -93,7 +93,7 @@ function NavBar({ toggle, setToggle }) {
         Login
       </Link>
       <Link
-        className="text-white hover:text-[#f2b31b] text-sm"
+        className="text-white hover:text-[#f2b31b] text-"
         to="/consultingandinvestment"
         onClick={() => {
           setToggle(false);
