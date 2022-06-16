@@ -24,7 +24,7 @@ function App() {
     <>
       <Browser>
       <div className="overflow-hidden relative w-[100vw] h-[100vh]">
-        <div style={{transition: "right 0.8s ease"}} className={`absolute z-10 top-0 bottom-0 ${toggle === true? " right-0": "right-[-100%]"}`}>
+        <div style={{transition: "right 0.8s ease"}} className={`absolute z-10 top-0 bottom-0 ${toggle === true? " right-0": "right-[-150%]"}`}>
           <NavBar toggle={toggle} setToggle={setToggle} />
         </div>
         <div className="h-full scroll-css overflow-auto">
@@ -66,7 +66,7 @@ function NavBar({ toggle, setToggle }) {
                     }
       </div>
       <Link
-        className="text-white hover:text-amber-300 text-sm"
+        className="text-white hover:text-amber-300 sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/"
         onClick={() => {
           setToggle(false);
@@ -75,7 +75,7 @@ function NavBar({ toggle, setToggle }) {
         Home <br />
       </Link>
       <Link
-        className="text-white hover:text-[#f2b31b] text-sm"
+        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/signup"
         onClick={() => {
           setToggle(false);
@@ -84,7 +84,7 @@ function NavBar({ toggle, setToggle }) {
         Sign Up
       </Link>
       <Link
-        className="text-white hover:text-[#f2b31b] text-sm"
+        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/login"
         onClick={() => {
           setToggle(false);
@@ -93,7 +93,7 @@ function NavBar({ toggle, setToggle }) {
         Login
       </Link>
       <Link
-        className="text-white hover:text-[#f2b31b] text-"
+        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/consultingandinvestment"
         onClick={() => {
           setToggle(false);
@@ -102,7 +102,7 @@ function NavBar({ toggle, setToggle }) {
         Consulting And Investment
       </Link>
       <Link
-        className="text-white hover:text-[#f2b31b] text-sm"
+        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/companyoverview"
         onClick={() => {
           setToggle(false);
@@ -111,7 +111,7 @@ function NavBar({ toggle, setToggle }) {
         Company Overview
       </Link>
       <Link
-        className="text-white hover:text-[#f2b31b] text-sm"
+        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/educationcourse"
         onClick={() => {
           setToggle(false);
@@ -120,7 +120,7 @@ function NavBar({ toggle, setToggle }) {
         Education Courses
       </Link>
       <Link
-        className="text-white hover:text-[#f2b31b] text-sm"
+        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/foundingdetails"
         onClick={() => {
           setToggle(false);
