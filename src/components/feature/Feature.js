@@ -31,7 +31,7 @@ function Feature() {
             <div className="container">
                 <div className="top">
                     <h1>Feature</h1>
-                    <p className="text-small">Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <p className="text-base">Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                 </div>
             </div>
             <div className="bottom container">

@@ -29,7 +29,7 @@ function Arts() {
         <div className="arts">
             <div className="container">
                 <h1>Recent Digital Arts</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="text-base">Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
             <div className="second">
                 <div className="container">

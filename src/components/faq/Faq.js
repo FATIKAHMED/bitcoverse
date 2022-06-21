@@ -5,7 +5,7 @@ function Faq() {
         <div className="faq">
             <div className="container">
                 <h1>FAQ'S</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="text-base">Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                 <div className="bottom">
                     <Box count="1" heading="Lorem ipsum is the dummy textLorem ipsum is "  text="Lorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy text"/>
                     <Box count="2" heading="Lorem ipsum is the dummy textLorem ipsum is "  text="Lorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy textLorem ipsum is simply dummy text"/>

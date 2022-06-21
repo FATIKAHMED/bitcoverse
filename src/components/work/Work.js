@@ -23,10 +23,10 @@ function Experties({link, text}) {
                 <h4>{text}</h4>
             </div>
             <ul>
-                <li className="text-small">Lorem ipsum is simply dummy text of</li>
-                <li className="text-small">Lorem ipsum is simply dummy text of</li>
-                <li className="text-small">Lorem ipsum is simply dummy text of</li>
-                <li className="text-small">Lorem ipsum is simply dummy text of</li>
+                <li className="text-base">Lorem ipsum is simply dummy text of</li>
+                <li className="text-base">Lorem ipsum is simply dummy text of</li>
+                <li className="text-base">Lorem ipsum is simply dummy text of</li>
+                <li className="text-base">Lorem ipsum is simply dummy text of</li>
             </ul>
         </div>
     )

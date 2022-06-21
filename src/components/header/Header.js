@@ -5,6 +5,8 @@ import Icon3 from "../../assets/icon3.png";
 import Icon4 from "../../assets/icon4.png";
 import Icon5 from "../../assets/icon5.png";
 import HeaderLogo from "../../assets/headerlogo.png";
+import { useHref } from "react-router-dom";
+
 
 function Header({setToggle, toggle}) {
     return (
@@ -25,8 +27,14 @@ function Header({setToggle, toggle}) {
                 </div>
             </div>
             <div className="bottom">
-                <div className="container">
-                    <img src={HeaderLogo} alt="logo"/>
+                <div className="container sm:flex-row flex-col">
+                    <img 
+                       src={HeaderLogo} alt="logo"/>
+                       <div className="flex gap-5 lg:pl-96 p-0 lg:pt-0 pt-2  lg:pb-0 pb-2 ">
+                        <button className="bg-[#133b59] hover:bg-[#f2b31b] text-white p-2 rounded-lg text-sm">Connect Your Wallet</button>
+                        <button className="bg-[#f2b31b] hover:bg-[#133b59] text-white p-2 rounded-lg text-sm">Demo Exchange</button>
+
+                       </div>
                     <div onClick={()=> {setToggle(!toggle) 
                     }} className={`toggler  cursor-pointer ${toggle === true? " sticky top-0": ""}`}> 
                     {

@@ -1,4 +1,5 @@
 import React from 'react'
+import Founder from '../founder/Founder';
 
 function Overview() {
     let skip=<br/>;
@@ -15,7 +16,7 @@ function Overview() {
                     text: "The premier blockchain institutional company that incorporates seamless integration of: Education, global community, consulting, social media, demo trade exchange, and mobile wallet that features a first of its kind Messenger option all into one pioneering concept."
                 },
                 {
-                    subHeading: "Bitcov:",
+                    subHeading: "BITCOV",
                     text: "BITCOVERSE or BITCOV for short, the token issued by BITCOVERSE is a POS (Proof of Stake) and will maintain a TO BE DETERMINED total distribution volume of digital asset coins, BITCO. Being a decentralized cryptocurrency based on the Ethereum platform, while also being a standard ERC 20 token based on Ethereum blockchain, BITCOV supports all Ethereum wallets."
                 },
             ]
@@ -30,11 +31,11 @@ function Overview() {
             ]
         },
         {
-            heading: "Founder",
+            heading: "",
             paragraphs : [
                 {
-                    subHeading: "Thomas Christopher / CEO",
-                    text: "Mr. Thomas Christopher is the CEO and Founder of BITCOVERSE, A Community For Everyone. Tom, is a former Actor / Model and Athlete, from New York City, who turned private Businessman at 24 years old. Key investment industries include: <br/> precious metals and gemstones (active mining partner), sports wagering, real estate (virtual as well), and blockchain technology, which is currently a key focus of Tom's investment plans. He is known to be a forward thinker who believes in innovation and usually sees things 3-10 years into the future ."
+                    subHeading: "",
+                    text: ""
                 }
             ]
         },
@@ -76,21 +77,26 @@ function Overview() {
 
   return (
     <div className='text-center container mx-auto mb-20'>
-        <div className="pt-16 pb-16 text-center text-[#133b59] mb-20 text-6xl font-bold">
+        <div className="pt-10 pb-10 text-center text-[#133b59] mb-20 text-6xl font-bold">
             <span className='text-[#f2b31b]'>Company</span> Overview
         </div>
         <div className='mx-auto max-w-3xl'>
             {data.map((value, index) => 
                 <div key={index}>
-                    <h1 className='text-[#f2b31b] font-bold text-3xl mb-5'>{value.heading}</h1>
+                    <h1 className='text-[#f2b31b] font-bold text-4xl mb-5'>{value.heading}</h1>
                     {value.paragraphs.map((para, paraInd) => 
                         <div key={paraInd}>
-                            <h1 className='text-[#133d59] font-bold text-xl mb-5'>{para.subHeading}</h1>
-                            <p style={{lineHeight:"25px"}} className='text-[#7e7e7e] text-xs font-[400] mb-5'>{para.text}</p>
+                            <h1 className='text-[#133d59] font-bold text-2xl mb-5'>{para.subHeading}</h1>
+                            <p style={{lineHeight:"25px"}} className='text-[#7e7e7e] text-[16px] font-[400] mb-5'>{para.text}</p>
                             {
-                                value.heading==="Founder"?<p style={{lineHeight:"25px"}} className='text-[#7e7e7e] text-xs font-[400] mb-5'> One of his latest ventures is with the brand, Toppem Sports, a subsidiary of its' parent company, Toppem. Toppem Sports
-                                integrates the worlds of Fantasy Sports and blockchain technology via NFTS, tokenization, and gamification. Feel free to review
-                                the company.<br/> <br/> For more information about Tom, please review his Bio. </p>:""
+                                value.heading===""?
+                                // <p style={{lineHeight:"25px"}} className='text-[#7e7e7e] text-xs font-[400] mb-5'> One of his latest ventures is with the brand, Toppem Sports, a subsidiary of its' parent company, Toppem. Toppem Sports
+                                // integrates the worlds of Fantasy Sports and blockchain technology via NFTS, tokenization, and gamification. Feel free to review
+                                // the company.<br/> <br/> For more information about Tom, please review his Bio. </p>
+                                <>
+                                <div className="founder-heding pt-20 pb-20 text-center text-4xl font-bold">
+                                <h1><span>CEO</span> &  <span> Founder</span> Bio </h1>
+                            </div><Founder/></>:""
                             }
                         </div>
                     )}
