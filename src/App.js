@@ -155,7 +155,7 @@ function NavBar({ toggle, setToggle }) {
       >
         Login
       </Link>
-      <div className="flex sm:flex-row flex-col gap-5 justify-center xl:pt-72 pt-0">
+      <div className="flex sm:flex-row flex-col gap-5 justify-center">
                         <button className="bg-white font-semibold  hover:bg-[#f2b31b]  text-black p-3 pr-10 pl-10 rounded-lg text-sm">SignUp</button>
                         <button className="bg-white font-semibold hover:bg-[#f2b31b] text-black p-3 pr-10 pl-10 rounded-lg text-sm">Login</button>
 
