@@ -74,6 +74,8 @@ function NavBar({ toggle, setToggle }) {
         to="/"
         onClick={() => {
           setToggle(false);
+        setDropdown(false);
+
         }}
       >
         Home <br />
@@ -83,6 +85,8 @@ function NavBar({ toggle, setToggle }) {
         to="/companyoverview"
         onClick={() => {
           setToggle(false);
+        setDropdown(false);
+
         }}
       >
         Company Overview
@@ -107,6 +111,8 @@ function NavBar({ toggle, setToggle }) {
         to="/educationcourse"
         onClick={() => {
           setToggle(false);
+        setDropdown(false);
+
         }}
       >
           <div className="h-3 w-3 mr-3 rounded-full inline-block bg-[#d4d7d8] "></div>
@@ -118,6 +124,8 @@ function NavBar({ toggle, setToggle }) {
         to="/educationcourse"
         onClick={() => {
           setToggle(false);
+        setDropdown(false);
+
         }}
       >
           <div className="h-3 w-3 mr-3 rounded-full inline-block bg-[#d4d7d8] "></div>
@@ -138,15 +146,18 @@ function NavBar({ toggle, setToggle }) {
       </Link> */}
      
       <Link
-        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
+        className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10 flex-1"
         to="/consultingandinvestment"
         onClick={() => {
           setToggle(false);
+
+        setDropdown(false);
+
         }}
       >
         Consulting And Investment
       </Link>
-      <Link
+      {/* <Link
         className="text-white hover:text-[#f2b31b] sm:text-[2.075rem] text-[1.375rem] font-[300] leading-10"
         to="/login"
         onClick={() => {
@@ -154,7 +165,7 @@ function NavBar({ toggle, setToggle }) {
         }}
       >
         Login
-      </Link>
+      </Link> */}
       <div className="flex sm:flex-row flex-col gap-5 justify-center">
                         <button className="bg-white font-semibold  hover:bg-[#f2b31b]  text-black p-3 pr-10 pl-10 rounded-lg text-sm">SignUp</button>
                         <button className="bg-white font-semibold hover:bg-[#f2b31b] text-black p-3 pr-10 pl-10 rounded-lg text-sm">Login</button>

@@ -94,7 +94,7 @@ function Overview() {
                                 // integrates the worlds of Fantasy Sports and blockchain technology via NFTS, tokenization, and gamification. Feel free to review
                                 // the company.<br/> <br/> For more information about Tom, please review his Bio. </p>
                                 <>
-                                <div className="founder-heding pt-20 pb-20 text-center text-4xl font-bold">
+                                <div className="founder-heding pt-5 pb-10 text-center text-4xl font-bold">
                                 <h1><span>CEO</span> &  <span> Founder</span> Bio </h1>
                             </div><Founder/></>:""
                             }

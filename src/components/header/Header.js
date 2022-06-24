@@ -6,9 +6,59 @@ import Icon4 from "../../assets/icon4.png";
 import Icon5 from "../../assets/icon5.png";
 import HeaderLogo from "../../assets/headerlogo.png";
 import { useHref } from "react-router-dom";
+import { useState } from "react";
+import { ethers } from "ethers";
+
 
 
 function Header({setToggle, toggle}) {
+
+    const [data, setdata] = useState({
+        address: "",
+        Balance: null,
+      });
+
+      const btnhandler = () => {
+  
+        // Asking if metamask is already present or not
+        if (window.ethereum) {
+      
+          // res[0] for fetching a first wallet
+          window.ethereum
+            .request({ method: "eth_requestAccounts" })
+            .then((res) => accountChangeHandler(res[0]));
+        } else {
+          alert("install metamask extension!!");
+        }
+      };
+
+        // getbalance function for getting a balance in
+  // a right format with help of ethers
+  const getbalance = (address) => {
+  
+    // Requesting balance method
+    window.ethereum
+      .request({ 
+        method: "eth_getBalance", 
+        params: [address, "latest"] 
+      })
+      .then((balance) => {
+        // Setting balance
+        setdata({
+          Balance: ethers.utils.formatEther(balance),
+        });
+      });
+  };
+      const accountChangeHandler = (account) => {
+        // Setting an address data
+        setdata({
+          address: account,
+        });
+      
+        // Setting a balance
+        getbalance(account);
+      };
+
     return (
         <div className="header">
             <div className="top">
@@ -31,7 +81,9 @@ function Header({setToggle, toggle}) {
                     <img 
                        src={HeaderLogo} alt="logo"/>
                        <div className="flex gap-5 lg:pl-96 p-0 lg:pt-0 pt-2  lg:pb-0 pb-2 ">
-                        <button className="bg-[#133b59] hover:bg-[#f2b31b] text-white p-2 rounded-lg text-sm">Connect Your Wallet</button>
+                        <button onClick={()=>{
+                            btnhandler();
+                        }} className="bg-[#133b59] hover:bg-[#f2b31b] text-white p-2 rounded-lg text-sm">Connect Your Wallet</button>
                         <button className="bg-[#f2b31b] hover:bg-[#133b59] text-white p-2 rounded-lg text-sm">Demo Exchange</button>
 
                        </div>

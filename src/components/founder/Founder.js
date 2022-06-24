@@ -4,7 +4,7 @@ import founder from "../../assets/founder.png";
 function Founder() {
     return (
         <div>
-            <div className="container mx-auto  grid md:grid-cols-3 grid-cols-1 gap-0 md:gap-10 mt-14 m-0 md:mb-14 ">
+            <div className="mx-auto grid md:grid-cols-3 grid-cols-1 gap-0 md:gap-10 mt-14 m-0 md:mb-14 ">
                 <div className="col-span-1 ">
                     <img className=" h-60 mb-10 md:mb-0 mx-auto sm:h-96 md:h-auto" src={founder} alt="a"/>
                 </div>
@@ -15,7 +15,7 @@ function Founder() {
                     <p className="text-[16px] text-[#7e7e7e] font-[400]  mb-5">Tom’s love and infatuation for blockchain and cryptocurrency began once he took the time out to truly understand them and how they were going to affect the future of global money. The key to truly understanding both blockchain and crypto's is networking with the people in the community and learning from each other. </p>
                 </div>
             </div>
-            <div className="container mx-auto max-w-3xl">
+            <div className="mx-auto max-w-3xl">
                     <p className="text-[16px] text-[#7e7e7e] font-[400] semibold mb-5">This is part of the equation that Tom uses to determine his next trade. The other two parts to Tom’s success is performing independent research and trusting his own intuition. Tom’s niche are long term crypto trades (much like a CD baring interest, but with Digital Assets/currencies instead, known as "Alt Coins") and blockchain offerings. He focuses on Alt Coins that serve as a necessity with a purpose now and moving forward into the next 10 – 20 years in shaping and transforming society on a global scale transitioning into a new financial system. This method produces fast gains now but also preserves wealth for the future. </p>
                     <p className="text-[16px] text-[#7e7e7e] font-[400]  mb-5">Tom is a big advocate of true education that enhances societal knowledge that is both self and communal sustainable. One of the biggest emphasis that BITOVERSE concentrates on is education. Its' educational platform is second to none. With over 126 developed courses for certificates and diplomas (degrees are under development) Tom is very proud to roll out the "Learn To Earn" program. Be sure to review the learn to earn program for all seven (more in development) subjects made available. Tom believes in equality and inclusion that is sustainable for a brighter future. He truly wants BITCOVERSE to be A Community For Everyone.</p>
                     <p className="text-[16px] text-[#7e7e7e] font-[400]  mb-5">One of Tom's influencer's is FUBU Co-Founder and Entrepreneur, Daymond John. Tom aspires to be like Mr. John. Toppem Sports hopes to be able to next cross over into the urban apparel fashion industry with that modern, confident, and edgy look. The same belief and attitude that FUBU walked onto the streets with and why its popularity has never faded amongst its loyal and new supporters decades later. Mr. John had a clear vision and executed it flawlessly and is now reaping the benefits 30 years later due to this. This is one of what Tom's goals are for BITCOVERSE, A Community For Everyone, down the road. Legacy is the goal of attainment for BITCOVERSE.</p>

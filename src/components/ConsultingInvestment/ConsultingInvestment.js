@@ -24,7 +24,7 @@ function ConsultingInvestment() {
         <h5 className="text-[#efb21a] text-xl font-bold pb-5">
           A CUSTOMIZED SYSTEM SHAPED BY OVER 9 YEARS OF CONSULTING EXPERIENCE
         </h5>
-        <p className="text-xs text-[#7e7e7e]">
+        <p className="text-base text-[#7e7e7e]">
           BITCOVERSE delivers a wealth of experience across different Digital
           Asset’s and market conditions. Being among the first to professionally
           consult clients on Bitcoin as an asset class certainly gives us an
@@ -42,7 +42,7 @@ function ConsultingInvestment() {
           <div className="h-2 w-2 mr-3 rounded-full inline-block bg-[#143d59] "></div>
           Privacy
         </h5>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           We endeavor to meet Turkey and internationally recognized standards of
           personal privacy protection. Any personal information requested
           through this site is used only for the purposes made clear at the
@@ -54,12 +54,12 @@ function ConsultingInvestment() {
           <div className="h-2 w-2 mr-3 rounded-full inline-block bg-[#143d59]"></div>
           Disclaimer
         </h5>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           All information contained within this website is provided for general
           information purposes only and is intended to present a guide to the
           services which may be provided from time to time by BITCOVERSE.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           Nothing published on the site is intended to be: (i) legal,
           professional, tax or other advice; (ii) a recommendation to undertake
           (or to cease undertaking) any action whatsoever; or (iii) an
@@ -68,12 +68,12 @@ function ConsultingInvestment() {
           all cases appropriate professional, legal and other relevant advice
           should be obtained before pursuing a particular course of action.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           BITCOVERSE accepts no responsibility for the content of any other
           website through which you may have gained access to this website, or
           to which you may gain access from this website.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           This website is governed by the laws of Turkey. Any communication with
           BITCOVERSE via this website will be deemed to have taken place in
           Turkey. The website is not directed at and should not be used by any
@@ -81,13 +81,13 @@ function ConsultingInvestment() {
           prohibited from accessing the material published herein. All users
           must accept personal responsibility for use of this website.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           Visitors are advised to take their own precautions regarding internet
           security and virus protection as BITCOVERSE does not accept any
           responsibility or liability in relation to any computer virus (or
           similar) which may have infected this website.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           The content of this website is subject to copyright with all rights
           reserved. You may not reproduce, modify, link into or use any part of
           this website for any public or commercial purpose without prior
@@ -108,7 +108,7 @@ function ConsultingInvestment() {
           <div className="h-2 w-2 mr-3 rounded-full inline-block bg-[#efb21a]"></div>
           INVESTMENT RISKS:
         </h3>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           We are not financial advisors. We are Digital Asset Consultants. All
           investments, including cryptocurrency as pertaining to digital assets,
           is speculative in nature and involves substantial risk of loss. We
@@ -123,7 +123,7 @@ function ConsultingInvestment() {
           warrant or guarantee the success of any action you take in reliance on
           our statements or recommendations.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           Past performance is not necessarily indicative of future results. All
           investments carry risk and all investment decisions of an individual
           remain the responsibility of that individual. There is no guarantee
@@ -132,7 +132,7 @@ function ConsultingInvestment() {
           understand all risks associated with any kind of investing they choose
           to do.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           Hypothetical or simulated performance is not indicative of future
           results. Unless specifically noted otherwise, all return examples
           provided in our websites and publications are based on hypothetical or
@@ -154,34 +154,34 @@ function ConsultingInvestment() {
           digital asset market:
         </p>
 
-        <li className="text-xs list text-[#7e7e7e] pb-4 flex">
+        <li className="text-base list text-[#7e7e7e] pb-4 flex">
           <p>
           Downturns in international, national, regional and local economic
           conditions;
           </p>
         </li>
 
-        <li className="text-xs list text-[#7e7e7e] pb-4 flex">
+        <li className="text-base list text-[#7e7e7e] pb-4 flex">
           <p>
         Increases in the supply of or decreases in the demand for similar or
           competing digital assets;
           </p>
         </li>
 
-        <li className="text-xs list text-[#7e7e7e] pb-4 flex">
+        <li className="text-base list text-[#7e7e7e] pb-4 flex">
        <p> Bankruptcies, financial difficulties by companies;</p>
 
         </li>
-        <li className="text-xs list text-[#7e7e7e] pb-4 flex">
+        <li className="text-base list text-[#7e7e7e] pb-4 flex">
         <p>Our ability to provide adequate maintenance;</p>
 
         </li>
-        <li className="text-xs list text-[#7e7e7e] pb-4 flex">
+        <li className="text-base list text-[#7e7e7e] pb-4 flex">
         <p>Civil unrest, acts of God, including earthquakes, floods and other
           natural disasters, which may result in uninsured losses, and acts of
           war or terrorism;</p>
         </li>
-        <li className="text-xs list text-[#7e7e7e] pb-4 flex ">
+        <li className="text-base list text-[#7e7e7e] pb-4 flex ">
           <p>
         Changes in, or increased costs of compliance with, governmental laws,
             rules, regulations and fiscal policies, including changes in tax, and
@@ -193,7 +193,7 @@ function ConsultingInvestment() {
           <div className="h-2 w-2 mr-3 rounded-full inline-block bg-[#efb21a]"></div>
           LEGAL DISCLAIMER:
         </h3>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           All calculations and data presented within the BITCOVERSE publications
           and digital marketing and media including but not limited to websites,
           brochures, presentations and return models are deemed to be accurate,
@@ -203,7 +203,7 @@ function ConsultingInvestment() {
           affiliates and subsidiaries. Past performance is not an indicator of
           future results.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           The information provided herein is not intended to replace or serve as
           a substitute for any legal, digital asset, tax, or other professional
           advice, consultation or service. The prospective investor should
@@ -211,7 +211,7 @@ function ConsultingInvestment() {
           tax, accounting, or other professional area before making any
           decisions or entering into any contracts pertaining to any program.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-4">
+        <p className="text-base text-[#7e7e7e] pb-4">
           All marketing and media material has been prepared to provide summary,
           unverified information to prospective purchasers, and to establish
           only a preliminary level of interest in the subject digital asset. The
@@ -321,7 +321,7 @@ function ProManagement() {
         <h1 className="text-2xl text-bold text-[#143d59] font-bold">
           PROFESSIONAL MANAGEMENT CONSULTING IN DIGITAL ASSETS
         </h1>
-        <p className="text-xs pt-8 text-[#7e7e7e] pb-4">
+        <p className="text-base pt-8 text-[#7e7e7e] pb-4">
           Money is transforming. We help capitalize in that opportunity. Welcome
           to BITCOVERSE, A Community For Everyone!
           <br />
@@ -358,7 +358,7 @@ function StrategySection() {
         <h3 className=" pb-4 text-[#efb21a] font-[500]">
           A PIONEERING, UNIQUE, UN-CORRELATED ASSET MANAGEMENT PROGRAM
         </h3>
-        <p className="text-xs text-[#7e7e7e] pb-5">
+        <p className="text-base text-[#7e7e7e] pb-5">
           BITCOVERSE has a team of Professional Consultants with an impeccable
           history of over 9 years of successful experience (only the last five
           years have been tracked under our Trade Performances Year by Year
@@ -366,12 +366,12 @@ function StrategySection() {
           initially in a discretionary capacity and more recently having evolved
           into an advanced systematic approach.
         </p>
-        <p className="text-xs text-[#7e7e7e] pb-5">
+        <p className="text-base text-[#7e7e7e] pb-5">
           After having studied Bitcoin for some time, the firm's Principal was
           struck by the resemblance with commodities as those developed into
           investable asset markets from the mid-1990s onwards.
         </p>
-        <p className="text-xs text-[#7e7e7e]">
+        <p className="text-base text-[#7e7e7e]">
           The aim of BITCOVERSE Professional Management Consulting is to provide
           maximum exposure to the price movements of cryptocurrencies while
           managing the risks associated with such which come with being involved
